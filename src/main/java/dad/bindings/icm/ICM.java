@@ -37,7 +37,7 @@ public class ICM extends Application {
 		cm = new Label("cm");
 		icmT = new Label("ICM: ");
 		icm = new Label();
-		estado = new Label();
+		estado = new Label("Bajo peso | Normal | Sobrepeso | Obeso");
 
 		HBox parte1 = new HBox();
 		parte1.setSpacing(4);
