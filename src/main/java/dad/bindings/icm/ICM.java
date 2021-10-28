@@ -31,9 +31,11 @@ public class ICM extends Application {
 
 		pesoT = new Label("Peso: ");
 		peso = new TextField();
+		peso.setPrefWidth(50);
 		kg = new Label("kg");
 		alturaT = new Label("Altura: ");
 		altura = new TextField();
+		altura.setPrefWidth(50);
 		cm = new Label("cm");
 		icmT = new Label("ICM: ");
 		icm = new Label();
